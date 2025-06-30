@@ -54,29 +54,37 @@
         <section>
             <h1>Conéctate con nosotros</h1>
         </section>
-        <article>
-            <p>¿Quieres recibir promociones, tips y novedades del mundo felino? Suscríbete a nuestro boletín y forma
-                parte de la comunidad CatNature. Porque sabemos que los gatos no son solo mascotas: son familia.</p>
-        </article>
-        <img src="../imagenes/una-vista-aerea-del-gato-sentado-cerca-de-las-tarjetas-de-felicitacion-carrete-de-hilo-pluma-y-ramo-de-flores-en-ropa-gris.jpg"
-            alt="gato con correspondencia" height="500" width="500">
-
-        <form action="/submit" method="post">
-            <section>
-                <label for="name">Nombre y Apellido</label>
-                <input type="text" name="name" id="name" placeholder="Nombre y Apellido">
-            </section>
-            <section>
-                <label for="correo">Correo Electronico</label>
-                <input type="email" name="mail" id="mail" placeholder="Mail">
-            </section>
-            <section>
-                <label for="comentario">Dejanos tu consulta</label>
-                <textarea name="comentario" rows="10" id="comentario" placeholder="Dejanos tu consulta..."></textarea>
-            </section>
-            <button type="submit">Enviar</button>
-        </form>
-
+        <div class="container"></div>
+            <div class="row g-0">
+                <div class="col-11">
+                    <article>
+                        <p>¿Quieres recibir promociones, tips y novedades del mundo felino? Suscríbete a nuestro boletín y forma
+                        parte de la comunidad CatNature. Porque sabemos que los gatos no son solo mascotas: son familia.</p>
+                    </article>
+                </div>
+                <div class="col-md-5 col-sm-10">
+                    <img src="../imagenes/una-vista-aerea-del-gato-sentado-cerca-de-las-tarjetas-de-felicitacion-carrete-de-hilo-pluma-y-ramo-de-flores-en-ropa-gris.jpg"
+                    alt="gato con correspondencia" height="500" width="500">
+                </div>
+                <div class="col-md-6 col-sm-10">    
+                    <form action="/submit" method="post">
+                        <section class="mb-3">
+                            <label for="name" class="form-label">Nombre y Apellido</label>
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Nombre y Apellido">
+                        </section>
+                        <section class="mb-3">
+                            <label for="correo" class="form-label">Correo Electronico</label>
+                            <input type="email" name="mail" class="form-control" id="mail" placeholder="Mail">
+                        </section>
+                        <section class="mb-3">
+                            <label for="comentario" class="form-label">Dejanos tu consulta</label>
+                            <textarea class="form-control" name="comentario" rows="3" id="comentario" placeholder="Dejanos tu consulta..."></textarea>
+                        </section>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer>
