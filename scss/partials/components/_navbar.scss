@@ -1,27 +1,41 @@
-
-nav{
-    .navbar-brand {
-                    font-family: "Alumni Sans SC", sans-serif;
-                    color: white;
+@use '../utilities/variables';
+@use '../base/tipografia';
+nav {
+    background-color: variables.$color-nav-bg;
+    div {
+        background-color: variables.$color-nav-bg;
+        button {
+            background-color: variables.$color-nav-bg;
+            span {
+                background-color: variables.$color-nav-bg;
+            }
+        }
+    }
+}
+.navbar-brand {
+                    font-family: tipografia.$font-brand;
+                    color: variables.$color-white;
                     font-size: 50px;
                     text-decoration: none;
-                    
-}
+                    background-color: variables.$color-nav-bg;
+}                    
+
 div .collapse {
     justify-content: end;
     font-size: 2rem;
+    background-color: variables.$color-nav-bg;
                         ul {
                             justify-content: end;
                                     li {
                                         list-style: none;
-                                        color: white;
+                                        color: variables.$color-white;
                                         justify-content: end;
                                         a {
                                         text-decoration: none;
-                                        color: white;
+                                        color: variables.$color-white;
+                                        background-color: variables.$color-nav-bg;
                                             }
                                         }
                                     }
                         }
-                    }
     

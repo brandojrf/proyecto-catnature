@@ -1,22 +1,24 @@
+@use '../utilities/variables';
+@use '../base/tipografia';
 * {
-    background-color: rgb(237, 177, 66);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:variables.$color-background ;
+    font-family: tipografia.$font-primary;
 }
 main {
     padding: 1rem;
     h1 {
-        color: white;
-        font-size: 2rem;
+        color: variables.$color-white;
+        font-size: variables.$font-size-h1;
     }
     h2 {
-        color: white;
-        font-size: 25px;
+        color: variables.$color-white;
+        font-size: variables.$font-size-h2;
     }
     article {
         p {
-            background-color: white;
-            font-size: 1.2rem;
-            color: black;
+            background-color: variables.$color-white;
+            font-size: variables.$font-size-p;
+            color: variables.$color-black;
             padding: 1rem;
         }
     }
@@ -31,6 +33,10 @@ img {
 }
 footer {
     padding: 1rem;
+    color: variables.$color-white;
+    p {
+        font-size: 1.1rem;
+    }
 }
 iframe {
     width: 100%;

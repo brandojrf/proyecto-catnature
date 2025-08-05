@@ -1,5 +1,7 @@
+@use '../utilities/variables';
+@use '../base/tipografia';
 .card {
-    background-color: white;
+    background-color: variables.$color-white;
     border-radius: 10px;
     padding: 1rem;
     margin: 1rem;
@@ -7,21 +9,21 @@
     width: 100%;
     height: auto;
     border-radius: 10px;
-    background-color: white;
+    background-color: variables.$color-white;
 }
     .card-body {
     padding: 1rem;
-    background-color: white;
+    background-color: variables.$color-white;
     .card-text {
-    font-size: 1rem;
+    font-size: variables.$font-size-card-text;
     color: black;
-    background-color: white;
+    background-color: variables.$color-white;
     justify-self: center;
 }
     .card-title {
-    font-size: 1.5rem;
-    color: black;
-    background-color: white;
+    font-size: variables.$font-size-card-title;
+    color: variables.$color-black;
+    background-color: variables.$color-white;
     justify-self: center;
 }
 

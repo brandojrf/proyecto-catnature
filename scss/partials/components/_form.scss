@@ -1,14 +1,15 @@
+@use '../utilities/variables';
 form {
     input {
-        background-color: white;
+        background-color: variables.$color-white;
     }
     label {
-        color:white
+        color:variables.$color-white
     }
     textarea {
-        background-color: white;
+        background-color: variables.$color-white;
     }
     button {
-        background-color: white;
+        background-color: variables.$color-white;
     }
 }
