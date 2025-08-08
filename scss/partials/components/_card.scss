@@ -1,5 +1,6 @@
 @use '../utilities/variables';
 @use '../base/tipografia';
+@use '../utilities/extend';
 .card {
     background-color: variables.$color-white;
     border-radius: 10px;

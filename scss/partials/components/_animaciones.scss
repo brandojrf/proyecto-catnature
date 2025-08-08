@@ -1,0 +1,13 @@
+@use '../utilities/extend';
+.card {
+    @extend %hover-sombra;
+}
+.card:hover {
+    @extend %hover-elevado;
+}
+ p {
+    @extend %hover-sombra;
+}
+p:hover {
+    @extend %hover-elevado;
+}

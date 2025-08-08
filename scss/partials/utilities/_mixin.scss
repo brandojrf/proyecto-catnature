@@ -1,0 +1,5 @@
+@mixin titulo($color, $size) {
+  color: $color;
+  font-size: $size;
+  font-weight: bold;
+}
