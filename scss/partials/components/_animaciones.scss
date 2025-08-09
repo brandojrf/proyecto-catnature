@@ -1,4 +1,5 @@
 @use '../utilities/extend';
+@use '../utilities/variables';
 .card {
     @extend %hover-sombra;
 }
@@ -9,5 +10,11 @@
     @extend %hover-sombra;
 }
 .text-p:hover {
+    @extend %hover-elevado;
+}
+.ul-text {
+    @extend %hover-sombra;
+}
+.ul-text:hover {
     @extend %hover-elevado;
 }

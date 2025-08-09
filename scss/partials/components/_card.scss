@@ -15,6 +15,19 @@
     .card-body {
     padding: 1rem;
     background-color: variables.$color-white;
+    align-content: center;
+    .btn-propio {
+        background-color: variables.$color-nav-bg;
+        color: variables.$color-white;
+        border: none;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        font-size: variables.$font-size-p;
+    }
+    .btn-propio:hover {
+    background-color: variables.$color-black;
+    color: variables.$color-white;
+}
     .card-text {
     font-size: variables.$font-size-card-text;
     color: black;

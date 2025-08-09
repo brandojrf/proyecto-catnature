@@ -56,10 +56,30 @@ iframe {
   padding: 1rem;
 }
 
+ul.ul-text-li {
+  list-style-type: none;
+  padding: 0;
+  background-color: #ffffff;
+}
+ul.ul-text-li li {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 0.7rem;
+}
+ul.ul-text-li li strong {
+  background-color: #ffffff;
+  color: #000000;
+}
+
 nav {
   background-color: #264653;
 }
 nav div {
+  background-color: #264653;
+}
+nav div a img {
   background-color: #264653;
 }
 nav div button {
@@ -105,11 +125,16 @@ form label {
 form textarea {
   background-color: #ffffff;
 }
-form button {
+form .btn-propio-forms {
   background-color: #ffffff;
+  font-size: 1.2rem;
+}
+form .btn-propio-forms:hover {
+  background-color: #264653;
+  color: #ffffff;
 }
 
-.text-p:hover {
+.text-p:hover, .ul-text:hover {
   transform: scale(1.03);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
 }
@@ -119,7 +144,7 @@ form button {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
-.card, p {
+.card, p, .ul-text {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -138,6 +163,19 @@ form button {
 .card .card-body {
   padding: 1rem;
   background-color: #ffffff;
+  align-content: center;
+}
+.card .card-body .btn-propio {
+  background-color: #264653;
+  color: #ffffff;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+}
+.card .card-body .btn-propio:hover {
+  background-color: #000000;
+  color: #ffffff;
 }
 .card .card-body .card-text {
   font-size: 1rem;

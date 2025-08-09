@@ -43,3 +43,19 @@ iframe {
     border: none;
     padding: 1rem;
 }
+ul.ul-text-li {
+    list-style-type: none;
+    padding: 0;
+    background-color: variables.$color-white;
+    li {
+        margin-bottom: 0.5rem;
+        font-size: variables.$font-size-p;
+        color: variables.$color-black;
+        background-color: variables.$color-white;
+        padding: 0.7rem;
+        strong {
+            background-color: variables.$color-white;
+            color: variables.$color-black;
+        }
+    }
+}
