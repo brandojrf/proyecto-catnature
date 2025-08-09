@@ -109,9 +109,14 @@ form button {
   background-color: #ffffff;
 }
 
-.card:hover, p:hover {
-  transform: scale(1.05);
+.text-p:hover {
+  transform: scale(1.03);
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 
 .card, p {

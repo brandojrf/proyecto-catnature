@@ -3,11 +3,11 @@
     @extend %hover-sombra;
 }
 .card:hover {
-    @extend %hover-elevado;
+    @extend %hover-elevado-card;
 }
  p {
     @extend %hover-sombra;
 }
-p:hover {
+.text-p:hover {
     @extend %hover-elevado;
 }
