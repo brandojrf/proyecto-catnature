@@ -8,10 +8,10 @@
 main {
     padding: 1rem;
     h1 {
-       @include mixin.titulo(#ffffff, 3rem);
+       @include mixin.titulo(variables.$color-white, variables.$font-size-h1);
     }
     h2 {
-        @include mixin.titulo(#ffffff, 2.5rem);
+        @include mixin.titulo(variables.$color-white, variables.$font-size-h2);
     }
     article {
         p {
